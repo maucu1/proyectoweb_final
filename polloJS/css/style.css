@@ -1,0 +1,13 @@
+body {
+
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+
+}
+
+#board {
+    background-image: url("../img/flappybirdbg.png");
+}
