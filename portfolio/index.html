@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="es_Es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="faviconcat.png" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <title>Portfolio</title>
+</head>
+<body>
+    <!-- Menú principal -->
+    <div class="header-content">
+        <header>
+            <div class="logo">
+                <a href="#">Laura Arredondo</a>
+            </div>
+
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+    <!-- Fin del menú principal -->
+
+
+    <!-- Sección de INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="banner-content">
+            <div class="img-content">
+                <img src="img/hero.png" alt="Chulazo">
+            </div>
+
+            <h1>Laura Dev</h1>
+            <h2>Desarrollo de páginas web.</h2>
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+    </section>
+    <!-- Fin de la sección de INICIO -->
+
+
+    <!-- Sección SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="content-section">
+            <h2>Sobre Mí</h2>
+            <p><span>Lorem ipsum dolor sit,</span> amet consectetur adipisicing elit. Impedit voluptate eum totam libero vel ea obcaecati cum consequatur praesentium neque, reprehenderit, expedita nobis ullam sint.
+            </p>
+            <div class="fila">
+                <!-- Datos personales -->
+                <div class="col">
+                    <h3>Datos personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Dirección</strong>
+                            <span>C/Paseo de las flores, 25</span>
+                        </li>
+                        <li>
+                            <strong>Fecha de nacimiento</strong>
+                            25-03-1997
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            697977121
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            correoelectronico@gmail.com
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Aficiones -->
+                <div class="col">
+                    <h3>Aficiones</h3>
+                    <div class="aficiones-content">
+                        <div class="aficion">
+                            <i class="fa-solid fa-book"></i>
+                            <span>LECTURA</span>
+                        </div>
+                    
+                        <div class="aficion">
+                            <i class="fa-solid fa-music"></i>
+                            <span>MÚSICA</span>
+                        </div>
+                    
+                        <div class="aficion">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>SENDERISMO</span>
+                        </div>
+                    
+                        <div class="aficion">
+                            <i class="fa-solid fa-ticket"></i>
+                            <span>CINE</span>
+                        </div>
+
+                        <div class="aficion">
+                            <i class="fa-solid fa-utensils"></i>
+                            <span>GASTRONOMIA</span>
+                        </div>
+
+                        <div class="aficion">
+                            <i class="fa-solid fa-bag-shopping"></i>
+                            <span>COMPRAS</span>
+                        </div>
+
+                        <div class="aficion">
+                            <i class="fa-solid fa-camera-retro"></i>
+                            <span>FOTOGRAFÍA</span>
+                        </div>
+
+                        <div class="aficion">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>VIDEOJUEGOS</span>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <button>
+                Descarga mi CV <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button>
+
+        </div>
+    </section>
+    <!-- Fin de la sección SOBRE MI -->
+
+    <!-- Sección SKILLS -->
+    <section id="skills" class="skills">
+        <div class="content-section">
+            <h2>Skills</h2>
+            <div class="fila">
+                <div class="col">
+                    <h3>Skills técnicas</h3>
+                    <div class="skill">
+                        <span>HTML</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>Bootstrap</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col">
+                    <h3>Skills profesionales</h3>
+                    <div class="skill">
+                        <span>Capacidad resolutiva</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>Trabajo en equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>Compromiso</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>100%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>Proactividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Fin de la sección SKILLS -->
+
+
+    <!-- Sección CV -->
+    <section id="curriculum" class="curriculum">
+        <div class="content-section">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Estudios</h3>
+                    <div class="item izq">
+                        <h4>Auxiliar de enfermería</h4>
+                        <span class="ubicacion">IES Moratalaz</span>
+                        <span class="fecha">2016 - 2018</span>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis fugit deserunt eum maiores vel, perferendis facere laudantium voluptatibus commodi nulla obcaecati quidem vero cumque ea!</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+
+                    <div class="item izq">
+                        <h4>Técnico en Radioterapia</h4>
+                        <span class="ubicacion">IES Rios Rosas</span>
+                        <span class="fecha">2018 - 2020</span>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis fugit deserunt eum maiores vel, perferendis facere laudantium voluptatibus commodi nulla obcaecati quidem vero cumque ea!</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+
+                    <div class="item izq">
+                        <h4>Técnico en Radiodiagnóstico</h4>
+                        <span class="ubicacion">IES Rios Rosas</span>
+                        <span class="fecha">2020 - 2022</span>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis fugit deserunt eum maiores vel, perferendis facere laudantium voluptatibus commodi nulla obcaecati quidem vero cumque ea!</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+
+                    <div class="item izq">
+                        <h4>Diseño de páginas web</h4>
+                        <span class="ubicacion">IES Rios Rosas</span>
+                        <span class="fecha">2024 - Actualidad</span>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis fugit deserunt eum maiores vel, perferendis facere laudantium voluptatibus commodi nulla obcaecati quidem vero cumque ea!</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia laboral</h3>
+                    <div class="item der">
+                        <h4>Auxiliar de enfermería</h4>
+                        <span class="ubicacion">Hospital Gregorio Marañon</span>
+                        <span class="fecha">2018 - 2022</span>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis fugit deserunt eum maiores vel, perferendis facere laudantium voluptatibus commodi nulla obcaecati quidem vero cumque ea!</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+
+                    <div class="item der">
+                        <h4>Técnico en Radioterapia</h4>
+                        <span class="ubicacion">IES Rios Rosas</span>
+                        <span class="fecha">2018 - 2020</span>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis fugit deserunt eum maiores vel, perferendis facere laudantium voluptatibus commodi nulla obcaecati quidem vero cumque ea!</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+
+                    <div class="item der">
+                        <h4>Técnico en Radiodiagnóstico</h4>
+                        <span class="ubicacion">Clinica Santa Elena</span>
+                        <span class="fecha">2022 - 2023</span>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis fugit deserunt eum maiores vel, perferendis facere laudantium voluptatibus commodi nulla obcaecati quidem vero cumque ea!</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+
+                    <div class="item der">
+                        <h4>Diseño de páginas web</h4>
+                        <span class="ubicacion">IES Rios Rosas</span>
+                        <span class="fecha">2024 - Actualidad</span>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis fugit deserunt eum maiores vel, perferendis facere laudantium voluptatibus commodi nulla obcaecati quidem vero cumque ea!</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Fin de la sección CV -->
+
+    <!-- Sección Portfolio -->
+    <section id="porfolio" class="porfolio">
+        <div class="content-section">
+            <h2>PORTFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/p1.jpg" alt="Paisajes">
+                    <div class="overlay">
+                        <h3>Diseño creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p2.jpg" alt="Paisajes">
+                    <div class="overlay">
+                        <h3>Diseño creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p3.jpg" alt="Paisajes">
+                    <div class="overlay">
+                        <h3>Diseño creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p4.jpg" alt="Paisajes">
+                    <div class="overlay">
+                        <h3>Diseño creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p5.jpg" alt="Paisajes">
+                    <div class="overlay">
+                        <h3>Diseño creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p6.jpg" alt="Paisajes">
+                    <div class="overlay">
+                        <h3>Diseño creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Fin de la Sección Porfolio -->
+
+    <!-- Contacto -->
+    <section id="contacto" class="contacto">
+        <div class="content-section">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <input type="text" placeholder="Ingresa tu nombre">
+                    <input type="text" placeholder="Correo Electronico">
+                    <input type="text" placeholder="Telefono">
+                    <input type="text" placeholder="Tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <Button>Enviar Mensaje
+                        <i class="fa-solid fa-paper-plane"> </i>
+                        <span class="overlay"></span>
+                    </Button>
+                </div>
+                <!-- Mapa -->
+                <div class="col">
+                    <img src="img/ubicacion.png" alt="Ubicacion">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-paper-plane"></i>
+                                Calle san Benito Becimuelle 23, Calahorra
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Llamanos; 654789654
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: tengoun@rroba.com.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Fin de contacto -->
+
+    <!-- Footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+        </div>
+    </footer>
+
+
+    <!-- Fin del Footer -->
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>
